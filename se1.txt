@@ -1,0 +1,15 @@
+public class Cube {
+	int side;
+	double volume;
+ public int volume() // volume calculation
+	{
+    	return 0;
+	}
+		public static void main(String arg[]) {
+		Cube c1 = new Cube();
+		c1.side = 5;
+		c1.volume(); // calling the function volume
+		System.out.println(c1.volume);
+
+	}
+}
