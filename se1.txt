@@ -12,7 +12,9 @@ public class Cube {
 	public static void main(String arg[]) {
     	Cube c1 = new Cube();
     	c1.side = 5;
-    	c1.volume(); // calling the function volume
+	 // calling the function volume
+    	c1.volume();
+	System.out.println("The volume of cube is : ");
     	System.out.println(c1.volume);
 	}
 }
